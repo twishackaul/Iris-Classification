@@ -20,4 +20,23 @@
 * The sepals and petals
 #### Based on the combination of these four features,  a linear discriminant model was developed to distinguish the species from each other. 
 
+## How to use model:
+- Importing libraries: Import necessary libraries such as:-
+  * Numpy
+  * Pandas
+  * Matplotlib
+  * Seaborn
+  * Tensorflow
+  * Keras
+  * Warnings
+  * Models, datasets, layers
 
+- Loading Data: Then load the data using the already present cifar10 dataset in tensorflow. Use the syntax => datasets.cifar100.load_data()
+
+- Training the model: You can train the model using Convolutional Neural Network. Add the required loss and activation functions, performance metrics along with the optimizers and you can also apply any regularization technique such as Drop regularization if required.
+
+- Testing model: Test the model using unseen data and calculate the testing accuracy.
+
+- Validating model: Validate or evaluate you model using a Confusion Matrix or Heatmap and calculate the accuracy, precision, recall, F1-Score, etc, according to your necessity.
+
+**Since the dataset is extremely large, using a triditional neural network would not be fulfilling the correct classification criteria, rathar, using a CNN with many layers can be considered more apt in such a case to get correct predictions.**
