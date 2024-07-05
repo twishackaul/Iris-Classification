@@ -28,10 +28,13 @@
   * Seaborn
   * Tensorflow
   * Keras
+  * load_iris()
+  * train_test_split
+  * OneHotEncoder
   * Warnings
   * Models, datasets, layers
 
-- Loading Data: Then load the data using the already present cifar10 dataset in tensorflow. Use the syntax => datasets.cifar100.load_data()
+- Loading Data: Then load the data using the already present iris dataset in tensorflow. Use the syntax => load_iris()
 
 - Training the model: You can train the model using a traditional Artificial Neural Network. Add the required loss and activation functions, performance metrics along with the optimizers.
   
