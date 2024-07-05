@@ -3,12 +3,15 @@
 #### The Iris flower data set or Fisher's Iris data set is a multivariate data set.
 #### The data set consists of 50 samples from each of three species of Iris:
 - Iris setosa
+- 
 ![Screenshot 2024-07-05 214041](https://github.com/twishackaul/Iris-Classification/assets/107127632/00e82e65-8249-4474-9634-431d7ba86fb5)
 
 - Iris versicolor
+- 
 ![Screenshot 2024-07-05 214127](https://github.com/twishackaul/Iris-Classification/assets/107127632/22cefbf8-173e-4d87-a4fd-1efa4478cb2e)
 
 - Iris virginica
+- 
 ![Screenshot 2024-07-05 214206](https://github.com/twishackaul/Iris-Classification/assets/107127632/f4758182-f02b-49c0-847f-b0a796fefba4)
 
 #### Four features were measured from each sample: 
@@ -16,8 +19,5 @@
 * The width of
 * The sepals and petals
 #### Based on the combination of these four features,  a linear discriminant model was developed to distinguish the species from each other. 
-## Python code illustrating usage:
-![Screenshot 2024-07-05 213854](https://github.com/twishackaul/Iris-Classification/assets/107127632/1bfbc878-d32e-4806-94bf-b242d332fade)
 
-### This code gives:
-![Screenshot 2024-07-05 213937](https://github.com/twishackaul/Iris-Classification/assets/107127632/8094c311-3b3d-41fd-b0f0-0f6ff196de08)
+
