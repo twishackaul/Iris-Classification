@@ -33,10 +33,10 @@
 
 - Loading Data: Then load the data using the already present cifar10 dataset in tensorflow. Use the syntax => datasets.cifar100.load_data()
 
-- Training the model: You can train the model using Convolutional Neural Network. Add the required loss and activation functions, performance metrics along with the optimizers and you can also apply any regularization technique such as Drop regularization if required.
-
+- Training the model: You can train the model using a traditional Artificial Neural Network. Add the required loss and activation functions, performance metrics along with the optimizers.
+  
 - Testing model: Test the model using unseen data and calculate the testing accuracy.
 
 - Validating model: Validate or evaluate you model using a Confusion Matrix or Heatmap and calculate the accuracy, precision, recall, F1-Score, etc, according to your necessity.
 
-**Since the dataset is extremely large, using a triditional neural network would not be fulfilling the correct classification criteria, rathar, using a CNN with many layers can be considered more apt in such a case to get correct predictions.**
+**Since the dataset is not that large and comparatively clean, a simple ANN would work perfectly for getting correct predictions with maximum accuracy.**
